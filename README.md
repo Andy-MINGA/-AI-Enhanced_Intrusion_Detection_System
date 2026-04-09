@@ -65,7 +65,7 @@ hybrid-ids-pipeline/
 ├── reports/
 │   └── AndyMinga_Hybrid_IDS_Complete_Report.pdf
 │
-├── .env.example                                # API key template (never commit your real key)
+├── .env.example                                
 ├── requirements.txt
 └── README.md
 ```
