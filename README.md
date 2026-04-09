@@ -6,7 +6,7 @@
 
 ---
 
-## 🧭 What This Project Does — Plain English First
+## 🧭 What This Project Does 
 
 Every day, computer networks are attacked. Tools like **Snort** monitor network traffic and raise an alarm whenever something suspicious is detected. The problem: Snort raises **way too many false alarms**. In our dataset, more than half of all alarms were noise. Security analysts waste most of their time chasing fake threats instead of real ones. This is called **alert fatigue**.
 
