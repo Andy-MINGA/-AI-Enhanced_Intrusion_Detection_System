@@ -251,8 +251,8 @@ The entire LLM phase used 4,018 tokens and cost **$0.000603** — less than one 
 **Heartbleed** is the most significant finding. It is the only named software vulnerability in this dataset — a flaw in OpenSSL's heartbeat protocol that allows an attacker to read up to 64 KB of server memory per request, potentially exposing private keys and passwords. The LLM correctly identified CVE-2014-0160 and recommended patching OpenSSL to ≥1.0.1g and revoking all SSL certificates.
 
 **Output files:**
-- `llm_threat_briefings.json` — structured JSON, one entry per attack type
-- `llm_threat_report.txt` — human-readable text report
+- `llm_threat_briefings.json` : structured JSON, one entry per attack type
+- `llm_threat_report.txt` : human-readable text report
 
 ---
 
@@ -288,20 +288,20 @@ Fine-tuning is like giving a knowledgeable generalist a cybersecurity internship
 
 | Term | Plain English |
 |------|--------------|
-| **PCAP file** | A recording of every packet sent on a network — like a DVR for internet traffic |
-| **IDS** | Intrusion Detection System — software that monitors network traffic for attacks |
+| **PCAP file** | A recording of every packet sent on a network; like a DVR for internet traffic |
+| **IDS** | Intrusion Detection System, software that monitors network traffic for attacks |
 | **Snort** | The most widely used open-source IDS in the world |
-| **False Positive** | An alarm that fires but turns out to be nothing — a false alarm |
+| **False Positive** | An alarm that fires but turns out to be nothing, a false alarm |
 | **False Negative** | A real attack that was missed and no alarm fired |
 | **Precision** | Of all alarms raised, what fraction were real attacks? |
 | **Recall** | Of all real attacks happening, what fraction did the system catch? |
 | **XGBoost** | A machine learning algorithm that builds many decision trees to classify data |
-| **Threshold** | The confidence cutoff — below this, suppress the alert; above it, pass it through |
-| **LLM** | Large Language Model — an AI that understands and generates human language |
-| **CVE** | Common Vulnerabilities and Exposures — a universal ID number for known security flaws |
+| **Threshold** | The confidence cutoff; below this, suppress the alert; above it, pass it through |
+| **LLM** | Large Language Model, an AI that understands and generates human language |
+| **CVE** | Common Vulnerabilities and Exposures, a universal ID number for known security flaws |
 | **Fine-tuning** | Taking a pre-trained AI model and training it further on your own specific data |
 | **LoRA** | A method for fine-tuning that only updates a small fraction of model parameters |
-| **NAT** | Network Address Translation — a firewall technique that changes IP addresses |
+| **NAT** | Network Address Translation, a firewall technique that changes IP addresses |
 | **Alert fatigue** | When analysts stop paying attention because there are too many false alarms |
 
 ---
