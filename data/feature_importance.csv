@@ -1,0 +1,13 @@
+,feature,importance
+1,dst_port,0.75393546
+2,msg,0.2156871
+3,src_port,0.012129201
+4,tcp_win,0.010941262
+5,tcp_flags,0.0041771433
+6,ip_len,0.0027176253
+7,ip_id,0.00041224225
+8,proto,0.0
+9,priority,0.0
+10,tcp_off,0.0
+11,ip_ttl,0.0
+12,ip_off,0.0
