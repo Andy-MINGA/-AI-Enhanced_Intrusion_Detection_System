@@ -14,7 +14,7 @@ This project builds a **three-layer pipeline** that:
 
 1. **Catches** all suspicious traffic with Snort — missing nothing
 2. **Filters** the noise automatically using a machine learning model (XGBoost)
-3. **Explains** each confirmed attack in plain English using AI (GPT-4o mini) — including what the threat is, how dangerous it is, and exactly what to do about it
+3. **Explains** each confirmed attack in plain English using the GPT API (GPT-4o mini), including what the threat is, how dangerous it is, and exactly what to do about it
 
 The result: 237,240 noisy alerts reduced to 108,172 confirmed threats with 99% precision, and professional threat intelligence briefings produced for **$0.000603 total**.
 
